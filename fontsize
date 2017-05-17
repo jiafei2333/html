@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Document</title>
+  <link href="" rel="stylesheet" type="text/css" media="all">
+  <script type="text/javascript" src=""></script>
+ </head>
+ <style type="text/css">
+	*{ margin:0px; padding:0px; font-family:"微软雅黑"}
+	h1,h2,h3,h4,h5,h6{font-family:"微软雅黑"; font-weight:normal;}
+	li{ list-style:none;}
+	a{ text-decoration:none;}
+	img{ border:none;}
+	body{background:#e8f6fe;}
+	a:focus,input:focus{-webkit-tap-highlight-color:rgba(0,0,0,0);/*-webkit-user-modify:read-write-plaintext-only;*/}
+	a{color: #000;}
+	.class1{
+		font-size:12px;
+		-webkit-transform-origin-x: 0;
+		-webkit-transform: scale(0.5833333333333334);
+	}
+	.class2{
+		font-size: 12px;
+	}
+ </style>
+ <body>
+  <div class="class1">异步任务接口用于大批量数据的处理，提交后接口即返回，企业号会在后台继续执行任务。</div>
+  <div class="class2">2异步任务接口用于大批量数据的处理，提交后接口即返回，企业号会在后台继续执行任务。</div>
+ </body>
+</html>
