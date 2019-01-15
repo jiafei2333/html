@@ -30,7 +30,7 @@
             var _tempStr = $(v).css("background-image");
             var src = _tempStr.substring(5, _tempStr.length-2)
             if (src.indexOf('http://') == -1 || src.indexOf('http://') > 0) {
-                src = '@BaseArticleUrl' + src;
+                src = 'http://192.168.1.32:8088/' + src;
             }
             $(v).bind("click", function () {
                 window.location.href = "Aheading://ShowImage/" + i;
@@ -39,7 +39,7 @@
         });
 
         var imageArrHref = "Aheading://LoadImages/" + imageArr.join(',');
-        $("#hdnIdAheading").val("yes");
+        
         console.log(imageArrHref, "line43~~~")
     </script>
 </body>
