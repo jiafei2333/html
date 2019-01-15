@@ -38,7 +38,7 @@
             $(".preview-list .preview").each(function (i, v) {
             var _tempStr = $(v).css("background-image");
             var src = _tempStr.substring(5, _tempStr.length-2)
-            if (src.indexOf('http://') == -1 || src.indexOf('http://') > 0) {
+            if (src.indexOf('https://') == -1 || src.indexOf('https://') > 0) {
                 src = 'https://jiafei2333.github.io/html/' + src;
             }
             $(v).bind("click", function () {
