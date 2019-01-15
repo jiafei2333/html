@@ -28,6 +28,7 @@
     <script src="./js/jquery.min.js"></script>
     <script>
         $(function(){
+            var imageArr = new Array();
             $(".preview-list .preview").each(function (i, v) {
             var _tempStr = $(v).css("background-image");
             var src = _tempStr.substring(5, _tempStr.length-2)
