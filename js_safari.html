@@ -23,10 +23,12 @@
             <span class="preview imgOthers" style="background-image:url(/UploadFile/9999/2019/01-10/image/6368273664803752716591266.jpg);">
             </span>
             <span class="preview imgOthers" style="background-image:url(/UploadFile/9999/2019/01-10/image/6368273664808152966875347.jpg);">
-        </span>
+            </span>
+        </div>
     <script src="./js/jquery.min.js"></script>
     <script>
-        $(".preview-list .preview").each(function (i, v) {
+        $(function(){
+            $(".preview-list .preview").each(function (i, v) {
             var _tempStr = $(v).css("background-image");
             var src = _tempStr.substring(5, _tempStr.length-2)
             if (src.indexOf('http://') == -1 || src.indexOf('http://') > 0) {
@@ -41,6 +43,7 @@
         var imageArrHref = "Aheading://LoadImages/" + imageArr.join(',');
         
         console.log(imageArrHref, "line43~~~")
+        })
     </script>
 </body>
 </html>
